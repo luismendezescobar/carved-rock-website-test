@@ -17,6 +17,7 @@ namespace CarvedRockTests
 
         [TestCase("")]
         [TestCase("contact")]
+        
         [TestCase("post/carabiners/")]
         public async Task Homepage_Ok_Response_Code(string relativePath)
         {
