@@ -21,7 +21,7 @@ namespace CarvedRockTests
         [TestCase("post/carabiners/")]
         public async Task Homepage_Ok_Response_Code(string relativePath)
         {
-            var response = await this.HttpClient.GetAsync($"http://54.196.114.152/{relativePath}");
+            var response = await this.HttpClient.GetAsync($"http://18.206.242.15/{relativePath}");
             Assert.AreEqual(HttpStatusCode.OK, response.StatusCode);
         }
     }
